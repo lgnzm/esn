@@ -1,4 +1,4 @@
-/*Exemples des requetes simples*/
+/*requetes simples*/
 /* Liste des libellés de types de projets.*/
 select 	libtype
 from	type
@@ -120,7 +120,7 @@ where	codpro = 17
 and		datfin is not null
 
 /*---------------------------------------------*/
-/* Exemples de jointure */
+/* jointure */
 /*---------------------------------------------*/
 /*	Noms et prénoms des salariés ayant la compétence « JAVASCRIPT »?*/
 select		nom,prenom
@@ -249,7 +249,7 @@ and			dg is not null
 ORDER BY	a.design
 
 /*---------------------------------------------*/
-/* exemples de requetes */
+/* requetes */
 /*---------------------------------------------*/
 
 /* Quels sont les ingénieurs (nom) de sexe masculin domiciliés dans une ville où ne se trouve
